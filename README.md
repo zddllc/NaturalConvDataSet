@@ -6,7 +6,7 @@ This repository provides examplar code for researchers to download the documents
 
 ## Dataset Download
 
-Please locate and download the offical NaturalConv Dataset from [here](https://ai.tencent.com/ailab/nlp/dialogue/#datasets). It contains all the dialogues, and the urls of the grounding documents.
+Please locate and download the offical NaturalConv Dataset from [here](https://huggingface.co/datasets/xywang1/NaturalConv). It contains all the dialogues, and the urls of the grounding documents.
 
 NaturalConv is released for non-commerical usage only. By downloading, you agree to the terms and conditions in the license that is included in the dataset zip file.
 
@@ -18,7 +18,7 @@ You can download a large part of the grounding documents using the python code t
 python download_document.py --doc_url_json document_url_release.json --output_dir ./
 ```
 
-document_url_release.json can be found [here](https://ai.tencent.com/ailab/nlp/dialogue/#datasets).
+document_url_release.json can be found [here](https://huggingface.co/datasets/xywang1/NaturalConv).
 
 ## Citation
 
